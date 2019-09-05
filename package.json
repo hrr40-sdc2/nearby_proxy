@@ -1,17 +1,32 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "housemania-overview-proxy",
+  "version": "1.0.0",
+  "description": "A Proxy Server to combine multiple Services into one Web Page",
+  "author": "KeitelDOG",
+  "license": "MIT",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "node server",
+    "start:dev": "nodemon server",
+    "react:dev": "webpack -d --watch"
   },
   "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   }
 }
