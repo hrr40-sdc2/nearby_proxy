@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node server",
     "start:dev": "nodemon server",
-    "react:dev": "webpack -d --watch"
+    "react:dev": "webpack -d --watch",
+    "react:prod": "webpack -p"
   },
   "dependencies": {
     "ejs": "^2.7.1",
