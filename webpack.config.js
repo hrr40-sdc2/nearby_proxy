@@ -4,7 +4,7 @@ module.exports = {
   entry: {
     description: './../description/client/src/index.jsx',
     reviews: './../reviews/client/src/index.js',
-    nearby: './../nearby-service-repo/client/index.jsx',
+    nearby: './../nearby-service/client/index.jsx',
     vendor: ['styled-components'],
   },
   optimization: {
